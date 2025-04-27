@@ -120,10 +120,6 @@ async def chat(query: dict):
     return {"response": response}
 
 
-@app.get("/")
-def read_root():
-    return {"message": "Hello, World!"}
-
 if __name__ == "__main__":
     import uvicorn
 
